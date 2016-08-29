@@ -1,0 +1,303 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.title-graphic {
+    margin: 200px auto;
+    height: 900px;
+    font-family: georgia;
+    color: white;
+    text-align: center;
+}
+
+.sub-title {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sub-title > h2 {
+    display: inline-block;
+    border-bottom: black 1px solid;
+    border-top: black 1px solid;
+    font-family: georgia;
+    line-height: 1.5em;
+}
+
+
+
+.center-cropped > h2 {
+    font-size: 2em;
+    margin-top: 50px;
+    display: inline-block;
+    border-bottom: white 1px solid;
+    border-top: white 1px solid;
+    font-family: georgia;
+    line-height: 1em;
+    color: white;
+}
+
+.left {
+    padding-top: 20px;
+    text-align: left !important;
+    color: white !important;
+}
+
+.right {
+    padding-top: 20px;
+    text-align: right !important;
+    color: white !important;
+}
+
+h1 {
+    display: inline-block;
+    border-bottom: white 1px solid;
+    border-top: white 1px solid;
+    font-size: 4em;
+}
+
+h3 {
+    font-family: avenir;
+    font-weight: lighter;
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+
+.logo {
+    margin: 20px;
+    width: 8%;
+    height: 8%;
+}
+
+
+
+.center-cropped {
+    text-align: center;
+    height: 795px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carson {
+    background-image: url(images/Carson_Image.jpg);
+}
+
+.clinton {
+    background-image: url(images/Clinton_Image.jpg);
+}
+
+.sanders {
+    background-image: url(images/Sanders_Image.jpg);
+}
+
+.trump {
+    background-image: url(images/Trump_Image.jpg);
+}
+
+.layer-trump {
+    background-color: rgba(231, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    height: 85%;
+}
+
+.layer-trump-tweets {
+    background-color: rgba(231, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}
+
+.layer-carson {
+    background-color: rgba(231, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    height: 45%;
+}
+
+.layer-carson-tweets {
+    background-color: rgba(231, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 8%;
+}
+
+.layer-barry {
+    background-color: rgba(0, 60, 255, 0.4);
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    height: 40%;
+}
+
+.layer-barry-tweets {
+    background-color: rgba(0, 60, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+}
+
+.layer-hillary {
+    background-color: rgba(0, 60, 255, 0.4);
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    height: 80%;
+}
+
+.layer-hillary-tweets {
+    background-color: rgba(0, 60, 255, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+}
+
+.parties-left-slide {
+    background-color: rgba(0, 60, 255, 0.4);
+    position: absolute;
+    left: 0;
+    height: 795px;
+    text-align: right;
+}
+.parties-left-slide h3{
+    width:100%;
+    margin-top: 400px;
+
+    font-size: 3em;
+    color: white;
+}
+.parties-left-slide img {
+    height: 75%;
+    width: 75%;
+    margin-top: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parties-right-slide img {
+    height: 75%;
+    width: 75%;
+    margin-top: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parties-right-slide h3{
+    width:100%;
+    margin-top: 400px;
+/*    padding-right: 10px;*/
+    font-size: 3em;
+    color: white;
+}
+
+.parties-right-slide {
+    background-color: rgba(231, 0, 0, 0.4);
+    position: absolute;
+    right: 0;
+    height: 795px;
+}
+
+.absolute-title {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.absolute-title > h2 {
+    margin-top: 50px;
+    display: inline-block;
+    border-bottom: white 1px solid;
+    border-top: white 1px solid;
+    font-family: georgia;
+    line-height: 1em;
+    color: white;
+}
+
+.follow {
+    height: 795px;
+    font-family: georgia;
+    text-align: center;
+/*    margin-top: 25px;*/
+/*    margin-bottom: 35px;*/
+}
+
+.follow > h3 {
+    font-family: georgia;
+}
+
+.down img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
+}
+.footer {
+    margin-top: 0px;
+    background-color: #464646;
+    height:100px;   
+}
+.footer img {
+    width: 80px;
+    height: 70px;
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-fluid {
+    padding: 0px;
+}
+/* ============================================================
+SECTIONS
+============================================================ */
+
+section.module:last-child {
+    margin-bottom: 0;
+}
+
+section.module.parallax {
+    height: 795px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.module.parallax-1 {
+    background-image: url("images/Whitehouse_Image.jpg");
+}
+
+section.module.parallax-2 {
+    background-image: url("images/Followers_Image.jpg");
+}
+
+section.module.parallax-3 {
+    background-image: url("");
+}
